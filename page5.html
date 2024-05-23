@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comment Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        .navbar {
+            background-color: black;
+            height: 80px;
+        }
+        .navbar-nav .nav-link {
+            color: white;
+            font-family: sans-serif;
+            text-decoration: underline;
+        }
+        .navbar-form .form-control {
+            width: 200px; 
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-family: monospace;
+            margin-top: 40px; 
+            width: 100%; 
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .social-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        .container-square {
+            background-color: lightgray;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            width: 40%;
+            height: 350px; 
+            margin: 0 auto; 
+            font-family: monospace;
+        }
+        .form-control {
+            width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page2.html">First Quarter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page3.html">Second Quarter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page4.html">Third Quarter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page5.html">What's Next</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex navbar-form">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container text-center mt-5">
+        <h1>What's Next?</h1>
+        <div class="container-square">
+            <p>As an ICT student, I expect that next year it would be a journey filled with discoverty and growth. I expect to develp a solid understanding of programming fundamentals of Python. I look forward to honing my problem-solving skills through hands-on projects and challenges. Moreover, I expect Python to empower me to express my creativity and innovate, whether it's through building interactive applications or delving into the realms of machine learning and artificial intelligence. Overall, I'm excited to embrace Python as a tool for realizing my programming ambitions and unlocking new opportunities in the digital world.</p>
+        </div>
+        <h2 class="mt-5">Comment Section</h2>
+        <form>
+            <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>Follow us</p>
+    <div class="social-icons">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXoMFtNYy-gfuvVnQkKSiDAmfYt0ynmaGz55WPNbUPZw&s" alt="Social Icon 1" class="social-icon">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe0xySdZlU7p-FgcvpMGWMUxcKOwsPQeK-VlRTVAKKaA&s" alt="Social Icon 2" class="social-icon">
+        <img src="https://img.freepik.com/free-photo/3d-realistic-isolated-isometric-tiktok-icon_125540-2043.jpg?size=338&ext=jpg&ga=GA1.1.2082370165.1716336000&semt=ais_user" alt="Social Icon 3" class="social-icon">
+    </div>
+    <p>@2024 All rights reserved.</p>
+    </footer>
+</body>
+</html>
